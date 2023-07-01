@@ -1,0 +1,32 @@
+html{
+    background-color: rgb(219, 143, 12);
+}
+
+#wrap{
+    background-color: rgb(228, 196, 141);
+    border-style: dashed;
+    border-color: black;
+    border-width: 3px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+ul li::first-letter{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.5em;
+}   
+
+.title, h1{
+    font-style: italic;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    margin-top: 0%;
+}
