@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(59, 63, 197);
+}
+#wrap{
+    display: flex;
+}
+#nav{
+    background-color:rgb(120, 181, 231);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: auto;
+    
+}
+#content{
+    background-color: rgb(76, 156, 213);
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#nav, #content{
+    flex:1;
+}
+#list2 {
+    list-style: none;
+}
