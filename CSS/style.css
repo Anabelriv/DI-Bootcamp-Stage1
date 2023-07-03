@@ -29,3 +29,8 @@ li:first-child {
 li:nth-child(2) {
     background-color: teal;
 }
+
+h2{
+    text-align: center;
+    border: 5px solid purple;
+}
